@@ -1,0 +1,13 @@
+{
+  "description": "contentScript Demo",
+  "manifest_version": 2,
+  "name": "contentscript-demo",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.uphold.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
